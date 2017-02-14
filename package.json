@@ -1,0 +1,27 @@
+{
+  "name": "express-app-skeleton",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PerminovEugene/express-app-skeleton.git"
+  },
+  "keywords": [
+    "express",
+    "passport",
+    "node.js"
+  ],
+  "author": "Eugene Perminov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PerminovEugene/express-app-skeleton/issues"
+  },
+  "homepage": "https://github.com/PerminovEugene/express-app-skeleton#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
