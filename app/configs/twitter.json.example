@@ -1,0 +1,8 @@
+// For fill that fields you must create new app on twitter.com.
+
+{
+  "consumerKey": "",
+  "consumerSecret": "",
+  "accessTokenKey": "",
+  "accessTokenSecret": ""
+}

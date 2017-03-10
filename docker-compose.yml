@@ -1,0 +1,28 @@
+version: '2'
+services:
+
+  backend:
+    image: node:6.9.1
+    volumes:
+      - .:/usr/src/app
+    working_dir: /usr/src/app
+    command: sh -c 'npm i && npm install -g nodemon && nodemon index.js'
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mongo
+    networks:
+      - all
+
+  mongo:
+    image: mongo:3
+    command: mongod --smallfiles
+    ports:
+      - "27017:27017"
+    networks:
+      - all
+    volumes:
+      - ./:/usr/src/app
+
+networks:
+  all:

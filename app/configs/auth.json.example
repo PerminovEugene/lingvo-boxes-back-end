@@ -1,0 +1,5 @@
+{
+  "availableStrategies": ["local", "twitter"],
+  "enabledStrategies": ["local", "twitter"],
+  "afterLoginUrl": ""
+}
